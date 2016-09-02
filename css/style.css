@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(http://7qnawv.com1.z0.glb.clouddn.com/homepage-tree.jpg);
+	background-repeat: no-repeat;
+	background-position:relative;
+	background-size:100%;
+}
+
+.container {
+  padding-top: 20px;
+  min-height: calc(100% - 130px);
+  box-sizing: border-box;
+}
+.nav {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.nav li a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin: 0;
+	padding: 60px 0 20px 0;
+    text-decoration: none;
+}
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.banner {
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	min-height:925px;
+}
+/*-- slider --*/
+.banner .rslides {
+	height:500px;
+} 
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+.rslides {
+	margin: 0 auto;
+}
+.banner-info {
+    text-align: center;
+    width: 100%;
+    margin: 15% 0;
+}
+.banner-info h3{
+	color: #fff;
+	font-size: 52px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin: 0;
+	font-family: 'Cinzel', serif;
+	padding: 60px 0 20px 0;
+}
+.banner-info p {
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	font-size: 34px;
+	font-weight: normal;
+	position: relative;
+	margin: 0;
+}
+.social-icons {
+    margin: 2% auto 0;
+}
+.social-icons  a span {
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url(../images/social1.png) no-repeat 0px 0px;
+}
+.social-icons  span.facebook {
+	background-position:0px 0px;
+}
+.social-icons span.twitter {
+	background-position:-47px 0px;
+}
+.social-icons span.linkedin {
+	background-position:-84px 0px;
+}
+.social-icons span.googleplus {
+	background-position:-131px 0px;
+}
+span.line1 {
+	width:484px;
+	height:1px;
+	background-color:#fff;
+	display:block;
+	margin:0 auto;
+}
+span.line2 {
+	width:484px;
+	height:1px;
+	display:block;
+	background-color:#fff;
+	margin:0 auto;
+} 
+/*-- /banner --*/
