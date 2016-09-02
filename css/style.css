@@ -3,8 +3,9 @@
 body{
 	background-image: url(http://7qnawv.com1.z0.glb.clouddn.com/homepage-tree.jpg);
 	background-repeat: no-repeat;
-	background-position:relative;
-	background-size:100%;
+	background-position:center 0;
+	height:100%;
+	width:100%;
 }
 
 .container {
